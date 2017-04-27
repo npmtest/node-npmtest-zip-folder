@@ -1,6 +1,6 @@
 # npmtest-zip-folder
 
-#### test coverage for  [zip-folder (v1.0.0)](https://github.com/sole/node-zip-folder)  [![npm package](https://img.shields.io/npm/v/npmtest-zip-folder.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-zip-folder) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-zip-folder.svg)](https://travis-ci.org/npmtest/node-npmtest-zip-folder)
+#### basic test coverage for  [zip-folder (v1.0.0)](https://github.com/sole/node-zip-folder)  [![npm package](https://img.shields.io/npm/v/npmtest-zip-folder.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-zip-folder) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-zip-folder.svg)](https://travis-ci.org/npmtest/node-npmtest-zip-folder)
 
 #### zips a folder and calls your callback when it's done
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-zip-folder/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-zip-folder/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-zip-folder/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-zip-folder/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-zip-folder/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-zip-folder/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-zip-folder/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-zip-folder/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-zip-folder/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-zip-folder/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-zip-folder/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-zip-folder/build/coverage.html/index.html)
 
@@ -77,7 +77,8 @@
     "scripts": {
         "test": "nodeunit tests.js"
     },
-    "version": "1.0.0"
+    "version": "1.0.0",
+    "bin": {}
 }
 ```
 
